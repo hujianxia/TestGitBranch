@@ -4,3 +4,6 @@ window.onload = function(){
       console.log('the autor is zero');
     }
 }
+window.onscroll = function(){
+   console.log(document.getElementByTag('body').scrollTop());
+}
